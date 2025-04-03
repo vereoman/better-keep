@@ -5,24 +5,24 @@ import {
     CardTitle 
 } from "@/components/ui/card";
 
-const trashed = {
-    id: "3",
-    title: "Deleted Note",
+const archived = {
+    id: "2",
+    title: "Archived Note",
     content:
-        "This is a note that has been moved to trash and will be permanently deleted after 30 days.",
+        "This is an archived note that was previously important but is now stored for reference.",
 };
 
-export default function Trash() {
+export default function Archive() {
     return (
         <div className="p-4 flex justify-center items-center min-h-screen">
             <Card className="w-full max-w-md">
                 <CardHeader className="text-center">
                     <CardTitle className="font-mono">
-                        {trashed.title}
+                        {archived.title}
                     </CardTitle>
                 </CardHeader>
                 <CardContent className="text-center">
-                    <p className="font-mono">{trashed.content}</p>
+                    <p className="font-mono">{archived.content}</p>
                 </CardContent>
             </Card>
         </div>
