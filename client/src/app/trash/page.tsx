@@ -1,9 +1,4 @@
-import { 
-    Card, 
-    CardContent, 
-    CardHeader, 
-    CardTitle 
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const trashed = {
     id: "1",
@@ -17,9 +12,7 @@ export default function Trash() {
         <div className="p-4 flex justify-center items-center min-h-screen">
             <Card className="w-full max-w-md">
                 <CardHeader className="text-center">
-                    <CardTitle className="font-mono">
-                        {trashed.title}
-                    </CardTitle>
+                    <CardTitle className="font-mono">{trashed.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center">
                     <p className="font-mono">{trashed.content}</p>

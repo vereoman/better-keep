@@ -9,7 +9,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Better Keep",
+    title: "Better Notes",
     description: "An open-source note-taking application.",
 };
 
@@ -20,10 +20,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className={geistMono.variable}>
-            <body className={`antialiased font-mono`}>
-                {" "}
-                {children}
-            </body>
+            <body className={`antialiased font-mono`}> {children}</body>
         </html>
     );
 }
