@@ -1,0 +1,21 @@
+{
+    "name": "server",
+    "module": "server.ts",
+    "type": "module",
+    "private": true,
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "bcryptjs": "^3.0.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "nodemon": "^3.1.9",
+        "prettier": "^3.5.3"
+    }
+}
