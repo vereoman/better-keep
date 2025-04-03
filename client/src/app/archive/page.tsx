@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/card";
 
 const archived = {
-    id: "2",
+    id: "1",
     title: "Archived Note",
     content:
         "This is an archived note that was previously important but is now stored for reference.",

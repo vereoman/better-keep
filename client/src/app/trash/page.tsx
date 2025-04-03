@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/card";
 
 const trashed = {
-    id: "3",
+    id: "1",
     title: "Deleted Note",
     content:
         "This is a note that has been moved to trash and will be permanently deleted after 30 days.",
